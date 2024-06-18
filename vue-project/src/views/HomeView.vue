@@ -8,8 +8,9 @@ import Weather from '../components/Weather.vue'
 <template>
   <main>
     <TheWelcome />
+    <Weather />
     <Calculator />
     <Converter />
-    <Weather />
+    
   </main>
 </template>
