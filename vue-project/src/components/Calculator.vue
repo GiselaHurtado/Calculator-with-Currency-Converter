@@ -100,12 +100,12 @@ function calculate() {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 320px;
-  background-color: white;
+  background-color: rgb(100,180,250);
   margin: 50px auto;
 }
 .display {
   background-color: #222;
-  color: white;
+  color: rgb(120,175,225);
   font-size: 2em;
   padding: 20px;
   text-align: right;
@@ -116,13 +116,15 @@ function calculate() {
   grid-template-columns: repeat(4, 1fr);
 }
 .btn {
-  background-color: #eee;
+  background-color: rgb(50,75,150);
+  color: white;
   border: 1px solid #ccc;
   font-size: 1.5em;
   padding: 20px;
   cursor: pointer;
   transition: background-color 0.2s;
   box-sizing: border-box;
+  border-radius: 100px;
 }
 .btn:hover {
   background-color: #ddd;
